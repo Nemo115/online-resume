@@ -1,0 +1,102 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 10em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 4em #ffb6b6aa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.page {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 1rem;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.sheet {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 100%;
+  padding: 1%;
+}
+
+.card {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  background-color: black;
+  margin: 10px;
+  border: 3px solid white;
+  border-radius: 0.6rem;
+  will-change: filter;
+  transition: filter 200ms;
+}
+.card:hover {
+  filter: drop-shadow(0 0 1rem #ffffffaa);
+}
+.skill_list {
+  list-style: none;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill_slot {
+  display: flex;
+  padding: 20px;
+}
+.skill_img {
+  width: 40px;
+  padding-right: 10px;
+}
+.achievements_list {
+  list-style: none;
+  margin-left: -5%;
+  /* text-align: left; */
+}
+.activity_list {
+  /* list-style: none; */
+  /* margin-left: -5%; */
+  text-align: left;
+}
+.bullet_list {
+  justify-content: start;
+  text-align: left;
+  margin-right: 1rem;
+}
