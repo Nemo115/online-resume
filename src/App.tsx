@@ -121,6 +121,10 @@ function App() {
               <Activity title="University of Melbourne, Bachelor of Science">
                 <Bullet>Majoring in Data Science</Bullet>
                 <Bullet>WAM: 76.571</Bullet>
+                <Bullet>
+                  Coursework: Programming in Python and C, Computer Algorithms,
+                  Linear Algebra, Calculus
+                </Bullet>
                 <Bullet>(Expected to complete in 2026)</Bullet>
               </Activity>
             </Card>
