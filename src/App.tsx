@@ -145,6 +145,38 @@ function App() {
           <div className="card-section">
             <Card>
               <h1>Projects</h1>
+
+              <h2>Web Development:</h2>
+
+              <Activity
+                title="Club Voting System"
+                link="https://github.com/Nemo115/ClubVoteSystem"
+              >
+                <Bullet>
+                  Web Application voting system for holding more efficient
+                  university club elections. Create an election or register a
+                  vote, with algorithmic support for preferential voting.
+                </Bullet>
+                <Bullet>
+                  Full Stack Application built and deployed in 3 days as a
+                  Hackathon Entry.
+                </Bullet>
+                <Bullet>
+                  Made with: React, Flask, JavaScript, Python, MySQL
+                </Bullet>
+              </Activity>
+              <Activity
+                title="Private Business Management System"
+                link="https://github.com/Nemo115/One-Touch-Computers"
+              >
+                <Bullet>
+                  Web Application for managing day to day business operations
+                  such as recording orders, managing clients, and tracking
+                  expenses.
+                </Bullet>
+                <Bullet>Made with: Flask, Python, MySQL</Bullet>
+              </Activity>
+
               <h2>Desktop Development:</h2>
               <Activity
                 title="Development Timer"
@@ -201,37 +233,6 @@ function App() {
                   viewing a graphical map of the restaurant.
                 </Bullet>
                 <Bullet>Made with: Xamarin, C#</Bullet>
-              </Activity>
-
-              <h2>Web Development:</h2>
-
-              <Activity
-                title="Club Voting System"
-                link="https://github.com/Nemo115/ClubVoteSystem"
-              >
-                <Bullet>
-                  Web Application voting system for holding more efficient
-                  university club elections. Create an election or register a
-                  vote, with algorithmic support for preferential voting.
-                </Bullet>
-                <Bullet>
-                  Full Stack Application built and deployed in 3 days as a
-                  Hackathon Entry.
-                </Bullet>
-                <Bullet>
-                  Made with: React, Flask, JavaScript, Python, MySQL
-                </Bullet>
-              </Activity>
-              <Activity
-                title="Private Business Management System"
-                link="https://github.com/Nemo115/One-Touch-Computers"
-              >
-                <Bullet>
-                  Web Application for managing day to day business operations
-                  such as recording orders, managing clients, and tracking
-                  expenses.
-                </Bullet>
-                <Bullet>Made with: Flask, Python, MySQL</Bullet>
               </Activity>
             </Card>
             <Card>
