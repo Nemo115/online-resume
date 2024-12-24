@@ -15,7 +15,7 @@ import azure from "./assets/microsoft-azure.svg";
 import aws from "./assets/aws.svg";
 import unity from "./assets/unity.svg";
 import raylib from "./assets/raylib.svg";
-import uni from "./assets/the-university-of-melbourne-seeklogo-2.svg";
+// import uni from "./assets/the-university-of-melbourne-seeklogo-2.svg";
 import wpf from "./assets/wpf.svg";
 
 import "./App.css";
