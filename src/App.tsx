@@ -91,7 +91,7 @@ function App() {
                   <li>WAM: 76.571</li>
                   <li>(Expected to complete in 2026)</li>
                 </ul>
-              </SkillSlot>
+              </SkillSlot> f
             </SkillList> */}
             <Activity title="University of Melbourne, Bachelor of Science">
               <Bullet>Majoring in Data Science</Bullet>
