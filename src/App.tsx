@@ -11,7 +11,7 @@ import mysql from "./assets/mysql.svg";
 import react from "./assets/react.svg";
 import flask from "./assets/icons8-flask.svg";
 import xamarin from "./assets/xamarin.svg";
-import azure from "./assets/microsoft-azure.svg";
+// import azure from "./assets/microsoft-azure.svg";
 import aws from "./assets/aws.svg";
 import unity from "./assets/unity.svg";
 import raylib from "./assets/raylib.svg";
@@ -91,7 +91,7 @@ function App() {
               </SkillList>
               <h3>Cloud Services:</h3>
               <SkillList>
-                <SkillSlot img_src={azure}>Azure</SkillSlot>
+                {/* <SkillSlot img_src={azure}>Azure</SkillSlot> */}
                 <SkillSlot img_src={aws}>AWS</SkillSlot>
               </SkillList>
               {/* <h3>Desktop App Development:</h3>
