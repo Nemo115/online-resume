@@ -16,7 +16,7 @@ import aws from "./assets/aws.svg";
 import unity from "./assets/unity.svg";
 import raylib from "./assets/raylib.svg";
 // import uni from "./assets/the-university-of-melbourne-seeklogo-2.svg";
-import wpf from "./assets/wpf.svg";
+// import wpf from "./assets/wpf.svg";
 
 import "./App.css";
 
@@ -94,11 +94,11 @@ function App() {
                 <SkillSlot img_src={azure}>Azure</SkillSlot>
                 <SkillSlot img_src={aws}>AWS</SkillSlot>
               </SkillList>
-              <h3>Desktop App Development:</h3>
+              {/* <h3>Desktop App Development:</h3>
               <SkillList>
                 <SkillSlot img_src={wpf}>WPF</SkillSlot>
                 <SkillSlot img_src={xamarin}>Xamarin</SkillSlot>
-              </SkillList>
+              </SkillList> */}
               <h3>Game Development:</h3>
               <SkillList>
                 <SkillSlot img_src={unity}>Unity</SkillSlot>
