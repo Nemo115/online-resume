@@ -73,7 +73,7 @@ function App() {
             </Card>
             <Card>
               <h1>Technologies</h1>
-              <h3>Databases:</h3>
+              <h3>Database:</h3>
               <SkillList>
                 <SkillSlot img_src={mysql}>MySQL</SkillSlot>
               </SkillList>
@@ -89,7 +89,7 @@ function App() {
               <SkillList>
                 <SkillSlot img_src={xamarin}>Xamarin</SkillSlot>
               </SkillList>
-              <h3>Cloud Services:</h3>
+              <h3>Cloud:</h3>
               <SkillList>
                 {/* <SkillSlot img_src={azure}>Azure</SkillSlot> */}
                 <SkillSlot img_src={aws}>AWS</SkillSlot>
